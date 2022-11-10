@@ -3,6 +3,7 @@ local Games = {
         [9000622508] = "mosacademy";
         [3851622790] = "breakin";
         [4620170611] = "breakin";
+        [662417684] = "lucky";
     }
     local Supported = Games[game.PlaceId] or false
     if Supported ~= false then
