@@ -1,0 +1,12 @@
+local Games = {
+        [8929050629] = "mosacademy";
+        [9000622508] = "mosacademy";
+        [3851622790] = "breakin";
+        [4620170611] = "breakin";
+    }
+    local Supported = Games[game.PlaceId] or false
+    if Supported ~= false then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/darknesstg/taxihub/main/' .. Supported))()
+    else
+        lib:Notification("System", "This game is not supported")
+    end
