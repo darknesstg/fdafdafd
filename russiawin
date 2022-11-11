@@ -5,6 +5,7 @@ local Games = {
         [4620170611] = "breakin";
         [662417684] = "lucky";
         [10972284553] = "skala";
+        [3101667897] = "speed";
     }
     local Supported = Games[game.PlaceId] or false
     if Supported ~= false then
